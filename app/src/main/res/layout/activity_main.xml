@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="match_parent"
+        android:layout_height="100px" /> <!-- Ajout de l'attribut layout_width -->
+    android:layout_height="wrap_content" <!-- Ajout de l'attribut layout_height -->
+    android:text="Notification Title"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/notification_message"
+        android:layout_width="match_parent"
+        android:layout_height="100px" /> <!-- Ajout de l'attribut layout_width -->
+    android:layout_height="wrap_content" <!-- Ajout de l'attribut layout_height -->
+    android:text="Notification Message"
+    android:textSize="14sp"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>
